@@ -1,4 +1,3 @@
-# ElevateLabs
 # 🧹 Titanic Dataset: Data Cleaning & Preprocessing for Machine Learning
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
@@ -12,12 +11,12 @@
 
 ## 🎯 Objective
 
-This project demonstrates the *end-to-end process of cleaning and preparing raw data for Machine Learning models* using the *Titanic dataset* as an example.
+This project demonstrates the **end-to-end process of cleaning and preparing raw data for Machine Learning models** using the **Titanic dataset** as an example.
 
-*Key Steps*:
+**Key Steps**:
 - 🧹 Explore missing data and data types.
-- ✏ Fill missing values appropriately.
-- 🏷 Encode categorical variables.
+- ✏️ Fill missing values appropriately.
+- 🏷️ Encode categorical variables.
 - 📏 Normalize and scale numeric features.
 - 📊 Detect and remove outliers.
 - 🐳 Save the cleaned, processed dataset for future ML tasks.
@@ -26,11 +25,11 @@ This project demonstrates the *end-to-end process of cleaning and preparing raw 
 
 ## 🧠 What You’ll Learn
 
-✅ Handling *missing values* with mean/median and mode  
-✅ Encoding *categorical features* with one-hot encoding  
-✅ Feature *scaling & normalization* using StandardScaler  
-✅ *Visualizing outliers* with boxplots and applying the *IQR method*  
-✅ Best practices for creating a *robust ML-ready dataset*  
+✅ Handling **missing values** with mean/median and mode  
+✅ Encoding **categorical features** with one-hot encoding  
+✅ Feature **scaling & normalization** using `StandardScaler`  
+✅ **Visualizing outliers** with boxplots and applying the **IQR method**  
+✅ Best practices for creating a **robust ML-ready dataset**  
 
 ---
 
@@ -55,24 +54,24 @@ Here are some important questions related to this task:
 ✨ Scikit-learn — preprocessing tools
 
 # ⭐ Contributors
-✍ Rohith0750 — Author & Maintainer
+✍️ Rohith0750 — Author & Maintainer
 
 
 
 ## 📂 Dataset
 
-We use the classic *Titanic Dataset* containing:
-- 891 entries and 12 columns
-- Missing data in Age, Cabin, and Embarked columns
-- Both *numeric* (Fare, Age, Pclass, etc.) and *categorical* (Sex, Embarked, etc.) features
+We use the classic **Titanic Dataset** containing:
+- `891` entries and `12` columns
+- Missing data in `Age`, `Cabin`, and `Embarked` columns
+- Both **numeric** (`Fare`, `Age`, `Pclass`, etc.) and **categorical** (`Sex`, `Embarked`, etc.) features
 
 You can [download the dataset here](https://www.kaggle.com/datasets/yasserh/titanic-dataset?resource=download) (or use the one provided).
 
 ---
 
-## 🛠 Steps Implemented
+## 🛠️ Steps Implemented
 
-1. *Loading & Exploring Dataset*  
+1. **Loading & Exploring Dataset**  
    ```python
    df = pd.read_csv('titanic.csv')
    df.info()
@@ -168,8 +167,8 @@ Steps:
 bash
 Copy code
 # 1) Clone the repository
-git clone https:https://github.com/Rohith0750/Elevatelabs
-cd tElevate labs
+git clone https://github.com/Rohith0750/ElevateLabs
+cd titanic-cleaning-preprocessing
 
 # 2) Create virtual env & activate
 python -m venv env
@@ -213,10 +212,10 @@ Happy Learning! 🎉
 
 
 
-🎯 ✅ *Next Steps*:
-- Copy this into your README.md.
+🎯 ✅ **Next Steps**:
+- Copy this into your `README.md`.
 
-💡 Would you also like me to help you generate a requirements.txt file? Let me know!
+💡 Would you also like me to help you generate a `requirements.txt` file? Let me know!
 
 # 💖 Thanks for checking this out!
 If you find this helpful, don’t forget to give it a ⭐ on GitHub.
