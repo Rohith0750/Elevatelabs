@@ -143,4 +143,5 @@ Copy code
 3. Push everything to GitHub.
 4. Submit the link using the portal.
 
-Let me know if you want the `requirements.txt` or `.ipynb` template as well.
+Let me know if you want the `requirements.txt` or `.ipynb` template as well .
+
